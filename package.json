@@ -1,0 +1,14 @@
+{
+    "name": "todoly",
+    "version": "1.0.0",
+    "description": "Simple full-stack app for getting all your to-dos under control.",
+    "main": "server/app.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "author": "Brandon Burrus",
+    "license": "MIT",
+    "dependencies": {
+        "jest": "^24.9.0"
+    }
+}
