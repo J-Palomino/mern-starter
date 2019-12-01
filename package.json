@@ -10,6 +10,7 @@
         "start:dev": "concurrently 'nodemon --config nodemon.json' 'cd client && npm run start'",
         "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
         "clean": "rm -rf node_modules && rm -rf client/node_modules && npm i && cd client && npm i && cd ..",
+        "install": "cd client && npm i",
         "lint:client": "eslint 'client'",
         "lint:server": "eslint 'server'",
         "lint": "npm run lint:server && npm run lint:client",
