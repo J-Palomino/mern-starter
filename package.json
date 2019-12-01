@@ -28,27 +28,27 @@
     "author": "Brandon Burrus",
     "license": "MIT",
     "dependencies": {
-        "if-env": "^1.0.4"
+        "if-env": "1.0.4"
     },
     "devDependencies": {
-        "babel-eslint": "^10.0.3",
-        "concurrently": "^5.0.0",
-        "eslint": "^6.7.2",
-        "eslint-config-prettier": "^6.7.0",
-        "eslint-plugin-babel": "^5.3.0",
-        "eslint-plugin-const-immutable": "^2.1.0",
-        "eslint-plugin-import": "^2.18.2",
-        "eslint-plugin-jest": "^23.1.1",
-        "eslint-plugin-jsx-a11y": "^6.2.3",
-        "eslint-plugin-prettier": "^3.1.1",
-        "eslint-plugin-promise": "^4.2.1",
-        "eslint-plugin-react": "^7.17.0",
-        "eslint-plugin-react-hooks": "^2.3.0",
-        "eslint-plugin-react-perf": "^3.2.3",
-        "eslint-plugin-react-redux": "^3.0.2",
-        "husky": "^3.1.0",
-        "jest": "^24.9.0",
-        "nodemon": "^2.0.1",
-        "prettier": "^1.19.1"
+        "babel-eslint": "10.0.3",
+        "concurrently": "5.0.0",
+        "eslint": "6.7.2",
+        "eslint-config-prettier": "6.7.0",
+        "eslint-plugin-babel": "5.3.0",
+        "eslint-plugin-const-immutable": "2.1.0",
+        "eslint-plugin-import": "2.18.2",
+        "eslint-plugin-jest": "23.1.1",
+        "eslint-plugin-jsx-a11y": "6.2.3",
+        "eslint-plugin-prettier": "3.1.1",
+        "eslint-plugin-promise": "4.2.1",
+        "eslint-plugin-react": "7.17.0",
+        "eslint-plugin-react-hooks": "2.3.0",
+        "eslint-plugin-react-perf": "3.2.3",
+        "eslint-plugin-react-redux": "3.0.2",
+        "husky": "3.1.0",
+        "jest": "24.9.0",
+        "nodemon": "2.0.1",
+        "prettier": "1.19.1"
     }
 }
