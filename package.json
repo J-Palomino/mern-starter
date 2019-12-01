@@ -4,7 +4,7 @@
     "description": "Simple full-stack app for getting all your to-dos under control.",
     "main": "server/app.js",
     "scripts": {
-        "build:client": "cd client && npm run build && cd .. && rm -rf build && mv client/build build",
+        "build:client": "cd client && npm run build && cd ..",
         "build": "npm run build:client",
         "start:prod": "node server/app.js",
         "start:dev": "concurrently 'nodemon --config nodemon.json' 'cd client && npm run start'",
