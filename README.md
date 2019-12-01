@@ -1,6 +1,6 @@
-# Todoly
+# MERN-Starter
 
-The simple solution to getting all of your important to-do tasks done 🚀📦
+Quickly get your next MERN app going with this template monorepo 🚀
 
 ### Development 💯
 
