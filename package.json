@@ -2,7 +2,7 @@
     "name": "todoly",
     "version": "1.0.0",
     "description": "Simple full-stack app for getting all your to-dos under control.",
-    "main": "server/app.js",
+    "main": "server/src/app.js",
     "scripts": {
         "build:client": "cd client && npm run build && cd ..",
         "build": "npm run build:client",
