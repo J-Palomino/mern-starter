@@ -6,7 +6,7 @@
     "scripts": {
         "build:client": "cd client && npm run build && cd ..",
         "build": "npm run build:client",
-        "start:prod": "node server/app.js",
+        "start:prod": "node server/src/app.js",
         "start:dev": "concurrently 'nodemon --config nodemon.json' 'cd client && npm run start'",
         "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
         "clean": "rm -rf node_modules && rm -rf client/node_modules && npm i && cd client && npm i && cd ..",
