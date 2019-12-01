@@ -380,7 +380,6 @@
         "import/exports-last": "warn",
         "import/no-duplicates": "error",
         "import/no-namespace": "warn",
-        "import/extensions": "warn",
         "import/order": "off",
         "import/newline-after-import": "warn",
         "import/perfer-default-export": "off",
