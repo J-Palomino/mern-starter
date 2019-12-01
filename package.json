@@ -14,7 +14,10 @@
         "lint:client": "eslint 'client'",
         "lint:server": "eslint 'server'",
         "lint": "npm run lint:server && npm run lint:client",
-        "test": "jest"
+        "test:client": "cd client && npm test -- --watchAll=false && cd ..",
+        "test:server": "jest --config jest.config.js",
+        "test": "npm run -s test:client && npm run -s test:server",
+        "validate": "npm run lint && npm run test"
     },
     "husky": {
         "hooks": {
