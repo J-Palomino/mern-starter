@@ -1,7 +1,7 @@
 {
-    "name": "todoly-client",
+    "name": "mern-starter-client",
     "version": "1.0.0",
-    "description": "Simple full-stack app for getting all your to-dos under control.",
+    "description": "TODO: Add client description",
     "private": true,
     "proxy": "http://localhost:3001/",
     "scripts": {
@@ -9,7 +9,7 @@
         "build": "react-scripts build",
         "test": "react-scripts test"
     },
-    "author": "Brandon Burrus",
+    "author": "TODO:Add author(s)",
     "license": "MIT",
     "dependencies": {
         "immer": "5.0.0",
